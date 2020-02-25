@@ -1,1 +1,1 @@
-const weirdOrNot = (n: number) => (n % 2 == 1 || n >= 6 && n <= 20 ? "Weird" : "Not wierd" )
+const weirdOrNot2 = (n: number) => (n % 2 == 1 || n >= 6 && n <= 20 ? "Weird" : "Not wierd" )

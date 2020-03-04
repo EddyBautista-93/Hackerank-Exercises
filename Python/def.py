@@ -37,4 +37,3 @@ print(leap(1992))
 print(1992 % 4)
 print(1992 % 400)
 
-Sent from my iPhone

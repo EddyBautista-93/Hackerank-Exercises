@@ -18,7 +18,7 @@
 // 1
 // 6
 
-const areOp = (x: number, y: number) => {
+const areOp = (x: number, y:any) => {
     let plus = (x + y);
     let minus = (x - y);
     let mul = (x * y);

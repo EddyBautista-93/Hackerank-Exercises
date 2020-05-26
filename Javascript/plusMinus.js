@@ -43,3 +43,26 @@
 
 // There are  positive numbers,  negative numbers, and  zero in the array.
 // The proportions of occurrence are positive: , negative:  and zeros: 
+
+
+
+function plusMinus(arr) {
+    let positives = 0, negatives = 0, zeros = 0;
+    const len = arr.length || 0;
+     
+    if (len > 0 && len <= 100) {
+         arr.map((elem, key) => {
+              if (elem > 0) {
+                   positives++;
+              } else if (elem < 0) {
+                   negatives++; 
+              } else {
+                   zeros++;
+              }
+                 
+              return elem; 
+         }); 
+    } 
+
+
+}
